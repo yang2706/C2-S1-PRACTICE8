@@ -11,11 +11,11 @@ export default function App() {
 
     // 3 - Return the style object
       if (score <= 3){
-        scoreColor = "#f3bc47";
+        scoreColor = `#f3bc47`;
       } else if (score <=6 ){
-        scoreColor = "#b7cc3a";
+        scoreColor = `#b7cc3a`;
       } else {
-        scoreColor = "#7fb33b";
+        scoreColor = `#7fb33b`;
       }
     return {
       width: scoreWidth,
